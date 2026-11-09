@@ -1,0 +1,8 @@
+name = "implementer"
+description = "Implement a bounded Text to ER change across the domain, API or interface."
+developer_instructions = """
+Read AGENTS.md and docs/architecture.md. Keep the conceptual ER contract canonical.
+Validate provider output at the service boundary. Keep routes free of provider logic.
+Use injected generators and temporary SQLite databases in tests. Do not make paid calls.
+Report actual checks and limitations. Keep changes within the assigned scope.
+"""
